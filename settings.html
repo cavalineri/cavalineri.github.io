@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Налаштування</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+        </nav>
+    </header>
+    <nav class="mobile">
+        <div class="close">
+            <span class="closeline line4"></span>
+            <span class="closeline line5"></span>
+        </div>
+        <ul class="mobile__nav-links">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="history.html">Iсторія</a></li>
+            <li><a href="work.html">Як працює?</a></li>
+            <li><a href="settings.html">Налаштування</a></li>
+            <li><a href="adv.html">Переваги</a></li>
+            <li><a href="usage.html">Використання</a></li>
+            <li><a href="how.html">Довідка</a></li>
+        </ul>
+    </nav>
+    <div class="overlay"></div>
+    <section class="settings">
+        <div class="container">
+            <h1 class="settings__title">Налаштування адресації в IP мережах</h1>
+            <div class="settings__wrapper">
+                <p class="regTXT mt-30">
+                    На сторінці "Налаштування адресації в IP мережах" можна знайти докладний опис того, як правильно налаштувати адресацію в IP мережах на різних пристроях. Оскільки мережі можуть бути різних масштабів та складності, існують різні методи та протоколи, які можна використовувати для налаштування адресації.
+                </p>
+                <p class="regTXT mt-30">
+                    Один з найважливіших елементів при налаштуванні адресації - це вибір IP-адрес для кожного пристрою, який знаходиться в мережі. Для того, щоб запобігти конфліктам IP-адрес, кожен пристрій повинен мати унікальну IP-адресу. Це може бути здійснене за допомогою DHCP або вручну.
+                </p>
+                <iframe width="70%" height="400" class="mt-30" src="https://www.youtube.com/embed/6GtI-kzTzhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="regTXT mt-30">
+                    Іншим важливим елементом налаштування адресації є маска підмережі. Вона визначає, які біти IP-адреси відповідають за ідентифікацію підмережі, а які - за ідентифікацію конкретного пристрою. На рівні маршрутизаторів можна використовувати такі протоколи як OSPF, BGP або RIP для автоматичної настройки маршрутів та інформації про мережі.
+                </p>
+                <p class="regTXT mt-30">
+                    Крім того, налаштування адресації в IP мережах також пов'язане з настройкою маршрутизаторів та комутаторів. На рівні маршрутизаторів можна використовувати статичні маршрути або протоколи маршрутизації, щоб настроїти маршрутизацію в мережі. На рівні комутаторів можна настроювати VLAN та використовувати протоколи розподілу дерева для забезпечення оптимальної швидкості передачі даних.
+                </p>
+                <p class="regTXT mt-30">
+                    Для налаштування адресації в IP мережах зазвичай використовуються спеціальні програми, такі як Cisco Packet Tracer, GNS3 або багато інших. Ці програми дозволяють створювати віртуальну мережу та налаштовувати її різні параметри, включаючи адресацію.
+                </p>
+                <div class="img__wrapper mt-30">
+                    <img class="settings__img mt-30" src="img/settings/Cisco.png" alt="Cisco">
+                    <img class="settings__img mt-30" src="img/settings/GNS3.png" alt="GNS3">
+                    <img class="settings__img mt-30" src="img/settings/Juniper_Networks_logo.svg.png" alt="Juniper_Networks_logo.svg.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="footerTXT">Чеботарьова Анастасія Денисівна ВПВПС-20-4</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

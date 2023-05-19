@@ -1,0 +1,22 @@
+.history {
+  padding: 120px 0;
+}
+.history__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.history__wrapper img {
+  max-width: 80%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  margin-top: 30px;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.history__wrapper img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}

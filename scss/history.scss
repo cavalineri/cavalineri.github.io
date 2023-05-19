@@ -1,0 +1,18 @@
+.history {
+    padding: 120px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        img {
+            max-width: 80%;
+            align-self: center;
+            justify-self: center;
+            margin-top: 30px;
+            transform: rotate(10deg);
+            transition: .3s all ease;
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+    }
+}

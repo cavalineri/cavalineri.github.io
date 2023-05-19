@@ -1,0 +1,50 @@
+.usage {
+    padding: 120px 0;
+    transition: .3 all ease;
+    &__txt {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+    &__svg {
+        &:first-child {
+            width: 75px;
+        }
+        width: 150px;
+    }
+    &__item {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        transition: .3s all ease;
+        h3 {
+            transition: .3s all ease;
+        }
+        svg, path {
+            transition: .3s all ease;
+        }
+        &:hover {
+            transition: .3s all ease;
+            transform: translateX(20%);
+            h3 {
+                transition: .3 all ease;
+                color: #C53DFB;
+            }
+            svg {
+                transition: .3s all ease;
+                path {
+                    transition: .3s all ease;
+                    fill: #C53DFB;
+                }
+            }
+        }
+    }
+    .pcAbsolute {
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        width: 47%;
+    }
+}
